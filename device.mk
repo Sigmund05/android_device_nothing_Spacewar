@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.hardware_keystore.km41.xml
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
