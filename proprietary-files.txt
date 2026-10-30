@@ -113,17 +113,9 @@ vendor/firmware/tfa98xx.cnt
 # Audio configs
 vendor/etc/audio/sku_yupik/audio_io_policy.conf
 vendor/etc/audio/sku_yupik/audio_platform_info_intcodec.xml
-vendor/etc/audio/sku_yupik/audio_tuning_mixer.txt
 vendor/etc/audio/sku_yupik/sound_trigger_mixer_paths_yupikqrd.xml
 vendor/etc/audio/sku_yupik/sound_trigger_platform_info.xml
-vendor/etc/audio_platform_info.xml
-vendor/etc/audio_platform_info_intcodec.xml
 vendor/etc/audio_tuning_mixer.txt
-vendor/etc/mixer_paths.xml
-vendor/etc/mixer_paths_qrd.xml
-vendor/etc/sound_trigger_mixer_paths.xml
-vendor/etc/sound_trigger_mixer_paths_qrd.xml
-vendor/etc/sound_trigger_platform_info.xml
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
@@ -998,10 +990,8 @@ vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/vendor.qti.hardware.qconfig@1.0.so
 
 # Media configs
-vendor/etc/media/video_system_specs.json
 vendor/etc/media_yupik_v1/video_system_specs.json
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-vendor/etc/video_system_specs.json
 
 # NFC configs
 vendor/etc/libnfc-nci.conf
